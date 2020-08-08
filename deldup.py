@@ -7,7 +7,7 @@ def del_files(file_name):
     files = os.listdir(file_name)
     os.chdir(file_name)
     for file in files:
-        if file.endswith("-2.jpg"):
+        if file.endswith("-1.jpg"):
             os.remove(file)
         if file.endswith(" (1).jpg"):
             os.remove(file)
